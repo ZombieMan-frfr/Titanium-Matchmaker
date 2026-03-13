@@ -1,6 +1,10 @@
 @echo off
 title Titanium Matchmaker
 
-ts-node index.ts
+echo Starting Titanium Matchmaker...
+call ts-node index.ts
 
+echo.
+echo Matchmaker stopped or crashed.
+echo Check the error above.
 pause
